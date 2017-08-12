@@ -8,7 +8,6 @@ public class TuringMachine {
 	public String[] fita;
 	public String estadoAtual;
 	
-	
 	public void reconheceCaracter(){
 		//O menorou igual é para fins de causar exceção, pois nao encontrou a letra do respectivo estado
 		for(int i =0; i <= matriz.length; i++){
